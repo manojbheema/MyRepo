@@ -16,5 +16,6 @@ public class TestList {
         stringList.removeAll(strings);
         boolean b = stringList.isEmpty();
         System.out.println(b);
+        System.out.println(stringList);
     }
 }
