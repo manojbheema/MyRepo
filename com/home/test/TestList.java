@@ -10,10 +10,11 @@ public class TestList {
         stringList.add("test2");
 
         List<String> strings = new ArrayList<>();
-        strings.add("test");
+        strings.add("test1");
+        strings.add("test2");
 
         stringList.removeAll(strings);
-        boolean b = strings.isEmpty();
+        boolean b = stringList.isEmpty();
         System.out.println(b);
     }
 }
