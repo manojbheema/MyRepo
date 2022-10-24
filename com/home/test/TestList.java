@@ -12,7 +12,6 @@ public class TestList {
         List<String> strings = new ArrayList<>();
         strings.add("test1");
         strings.add("test2");
-
         stringList.removeAll(strings);
         boolean b = stringList.isEmpty();
         System.out.println(b);
